@@ -1,18 +1,29 @@
 # Saus Demo with Intlij POM(page Object Model) using page factory 
 Web automation testing using Selenium, Cucumber, Java, and design pattern Page Object Model (POM) with Page Factory.
 
-## 1. POM
+## Table Of Contents
+
+- [Page Object Model](#POM)
+- [Cum and Gher](#Cucumber and Gherkin)
+- [Setup Need](#Preparation)
+- [Install and Configure](#Instalation)
+- [Project](#Project)
+- [Package & Class](#Package & Class)
+- [Execution](#Running Automation)
+
+
+## POM
 
 The POM design pattern was used to construct this automation. Describe POM. Page Object Model is referred to as POM. A design pattern used to create automation is POM. where each page of a program or website is treated as a separate class. This has the benefit that other classes won't be impacted when the interface of one page changes. 
 
-## 2. Cucumber dan Gherkin
+## Cucumber and Gherkin
 
 Then, we'll use Gherkin and Cucumber for scenario scripting.<br/>
 Describe cucumber. Gherkin definition.<br/>
 A tool that helps BDD (behavior-driven development) is cucumber.<br/>
 A set of grammar rules called "Gherkin" gives unstructured text enough organization so that Cucumber can comprehend it. Gherkin is used to write scenario scripts.<br/><br/>Refer to this link: https://docs.cucumber.io/docs/guides/overview
 
-## 3. Preparation
+## Preparation
 
 | Items        | Remarks                                                         |
 | ------------ | ------------------------------------------------------------ |
@@ -21,11 +32,11 @@ A set of grammar rules called "Gherkin" gives unstructured text enough organizat
 | Web Driver   | Chrome Driver (https://chromedriver.chromium.org/downloads)<br />Firefox Driver (https://github.com/mozilla/geckodriver/releases) |
 | Browser      | Chrome/Mozilla Firefox/Edge latest version   |
 
-## 4. Installation
+## Installation
 
 Install Editor Intellij Idea Community and JDK.
 
-## 5. Configuration
+## Configuration
 
 #### Windows
 
@@ -41,7 +52,7 @@ Install Editor Intellij Idea Community and JDK.
 
 *Automatically set*
 
-## 6. Project
+## Project
 
 #### Clone
 
@@ -63,7 +74,7 @@ Open this automation using Intellij IDEA.
 3. Click Install
 4. Repeat steps 2-3 for plugin `gherkin`
 
-## 7. Package & Class
+## Package & Class
 
 ### Struktur Project
 
@@ -85,13 +96,16 @@ Open this automation using Intellij IDEA.
 - `steps` package for all page step definitions.
 - `resources` package for all features or non java classes.
 
-## 8. Running Automation
+## Running Automation
 
 First Way:
 - Open TestRunner class and run it.
 
 Second Way:
 - Using terminal or cmd, type ```mvn test```
+- Verify Maven Installation: Ensure that Maven is installed on your system. You can download the latest Maven distribution from the Apache Maven website (https://maven.apache.org/download.cgi) and follow the installation instructions specific to your operating system.
+
+Set Maven Home and Update PATH: After installing Maven, you need to set the MAVEN_HOME environment variable and update the PATH variable to include the Maven executable.
 
 Run and generate report:
 - ```mvn test site surefire-report:report```
