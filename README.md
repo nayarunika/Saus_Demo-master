@@ -8,7 +8,7 @@ Web automation testing using Selenium, Cucumber, Java, and design pattern Page O
 - [Setup Need](#Preparation)
 - [Install and Configure](#Instalation)
 - [Project](#Project)
-- [Package & Class](#Package-&-Class)
+- [Package & Class](#Class-and-Package)
 - [Execution](#Running-Automation)
 
 
@@ -74,7 +74,7 @@ Open this automation using Intellij IDEA.
 3. Click Install
 4. Repeat steps 2-3 for plugin `gherkin`
 
-## Package & Class
+## Class and Package
 
 ### Struktur Project
 
