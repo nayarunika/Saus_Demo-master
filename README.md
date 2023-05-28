@@ -28,7 +28,7 @@ A set of grammar rules called "Gherkin" gives unstructured text enough organizat
 | Items        | Remarks                                                         |
 | ------------ | ------------------------------------------------------------ |
 | Editor       | Intellij IDEA Community (https://www.jetbrains.com/idea/download/#section=windows) |
-| JDK          | JDK 9 (https://www.oracle.com/java/technologies/javase/javase-jdk9-downloads.html) |
+| JDK          | JDK 9 (https://www.oracle.com/id/java/technologies/javase/javase9-archive-downloads.html) |
 | Web Driver   | Chrome Driver (https://chromedriver.chromium.org/downloads)<br />Firefox Driver (https://github.com/mozilla/geckodriver/releases) |
 | Browser      | Chrome/Mozilla Firefox/Edge latest version   |
 
