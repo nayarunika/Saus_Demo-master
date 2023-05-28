@@ -8,7 +8,7 @@ Web automation testing using Selenium, Cucumber, Java, and design pattern Page O
 - [Setup Need](#Preparation)
 - [Install and Configure](#Instalation)
 - [Project](#Project)
-- [Package and Class](#Package-&-Class)
+- [Package and Class](#package-and-class)
 - [Execution](#Running-Automation)
 
 
