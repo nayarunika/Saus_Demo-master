@@ -16,13 +16,7 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v2
         with:
-          java-version: '9'
-
-      - name: Set up Maven
-        uses: actions/setup-java@v2
-        with:
-          java-version: '9'
-          maven-version: '3.x'
+          java-version: '11'
 
       - name: Build project
         run: mvn clean install
