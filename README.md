@@ -4,11 +4,11 @@ Web automation testing using Selenium, Cucumber, Java, and design pattern Page O
 ## Table Of Contents
 
 - [Page Object Model](#POM)
-- [Cum & Gher](#Cucumber--Gherkin)
+- [Cum & Gher](#Cucumber-and-Gherkin)
 - [Setup Need](#Preparation)
 - [Install and Configure](#Instalation)
 - [Project](#Project)
-- [Package and Class](#package-and-class)
+- [Package and Class](#Package-and-Class)
 - [Execution](#Running-Automation)
 
 
