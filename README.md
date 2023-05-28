@@ -17,7 +17,7 @@ A set of grammar rules called "Gherkin" gives unstructured text enough organizat
 | Items        | Remarks                                                         |
 | ------------ | ------------------------------------------------------------ |
 | Editor       | Intellij IDEA Community (https://www.jetbrains.com/idea/download/#section=windows) |
-| JDK          | JDK 8 (https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) |
+| JDK          | JDK 9 (https://www.oracle.com/java/technologies/javase/javase-jdk9-downloads.html) |
 | Web Driver   | Chrome Driver (https://chromedriver.chromium.org/downloads)<br />Firefox Driver (https://github.com/mozilla/geckodriver/releases) |
 | Browser      | Chrome/Mozilla Firefox/Edge latest version   |
 
@@ -29,15 +29,15 @@ Install Editor Intellij Idea Community and JDK.
 
 #### Windows
 
-###### JDK 8
+###### JDK 9
 
 1. Right-click My Computer > Properties > Advance system settings > Environment Variables > PATH > Edit 
-2. Type `C:\Java\java-8\bin` 
+2. Type `C:\Java\java-9\bin` 
 3. Click Save
 
 #### Linux dan Mac OS
 
-###### JDK 8
+###### JDK 9
 
 *Automatically set*
 
